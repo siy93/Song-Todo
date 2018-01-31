@@ -61,7 +61,7 @@ export default class App extends React.Component {
     try {
       const toDos = await AsyncStorage.getItem("toDos");
       const parseToDos = JSON.parse(toDos);
-      this.setState({ loadedToDos: true, toDos: parseToDos })
+      this.setState({ loadedToDos: true, toDos: parseToDos || {} })
     } catch(err) {
       console.log(err)
     }
