@@ -2,7 +2,7 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://m7-rgr.siy93.song-todo.exp.direct",
   "packagerNgrokUrl": "https://packager.m7-rgr.siy93.song-todo.exp.direct",
-  "ngrokPid": 11208,
+  "ngrokPid": 2176,
   "packagerPort": 19001,
-  "packagerPid": 11192
+  "packagerPid": 2143
 }
